@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>CSS3 Property Basic</title> 
+<style> 
+.box {
+width: 100px; 
+height: 100px; 
+position: relative; //absolute는 부모의 시작좌표가 기준좌표, relative의 기준좌표는 static좌표, fixed는 웹브라우저 기준
+ } 
+ .box:nth-child(1) {
+  background-color: red;
+  left: 10px; top: 10px;
+   }
+ .box:nth-child(2) {
+ background-color: green;
+ left: 50px; top: 50px;
+ } 
+ .box:nth-child(3) {
+  background-color: blue;
+  left: 90px; top: 90px;
+   } 
+   </style> 
+   </head>
+    
+    <body> 
+    <div class="box"></div> 
+    <div class="box"></div> 
+    <div class="box"></div> 
+    </body> 
+    </html>
